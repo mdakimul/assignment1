@@ -1,0 +1,316 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.flex-space-around{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+
+ /* navbar start here */
+nav{
+    position: sticky;
+    font-size: 12px;
+    font-family: arial;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+.manu-list{
+    background-color: whitesmoke;
+    min-height: 3rem;
+    gap: 30px;
+    margin: 2px 100px;
+    
+    
+}
+.manu-list>li{
+    transition: all 0.3s;
+    list-style-type: none;
+    
+    
+}
+.manu-list>li>a{
+    text-decoration: none;
+    color: black;
+}
+.manu-list>li>a:hover{
+color: tomato;text-decoration:overline ;
+ 
+}
+/* navbar end here */
+
+
+/* banner start here*/
+.bannar-area{
+margin: 0px 100px;
+background: whitesmoke;
+display: flex;
+}
+.left-side{
+    width: 660px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.left-side>h2{
+    font-size: 40px;
+    font-family: arial;
+}
+.left-side>p{
+ font-size: 15px;
+ font-family: arial;
+ width:300px;
+ margin-top: 10px;
+}
+.freepik{
+    margin-top: 30px;
+
+}
+.btn{
+    margin-top: 30px;
+    border-radius:30px;
+    padding: 15px;
+    background: tomato;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    background: white;
+    color: tomato;
+
+}
+.right-side>img{
+    width:500px;
+    height: 400px;
+    margin-top: 115px;
+}
+hr{
+   color: tomato;
+   margin: -3px 100px;
+}
+/*banner end here */
+/* card start here */
+
+.card-section{
+    margin: 10px 100px;
+    background: tomato;
+     height:800px;
+}
+.head{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: arial;
+}
+.single-card{
+     width: 300px;
+     height: 300px;
+     background: white;
+     border-radius: 30px;
+    align-items: center;
+    
+    
+    
+}
+.head4{
+    text-align: center;
+}
+.para{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    
+
+}
+.card-img{
+    
+    background: blue;
+    border-radius: 100px;
+    padding: 15px;
+    margin: 50px 34%;
+    width: 20%;   
+}
+.all-card{
+    margin-top: 30px;
+}
+.card-area1{
+    display: flex;
+   padding: 10px 270px;
+   gap: 20px;
+  
+}
+.btn2{
+    padding: 15px;
+    font-size: 15px;
+    font-family: arial;
+    border-radius: 30px;
+   margin:0px 500px;
+   background: blue;
+   color: white;
+   border: none;
+}
+.btn2:hover{
+background: white;
+color: blue;
+
+}/* card end here */
+.bannar-area2{
+    margin: 5px 100px;
+    background: whitesmoke;
+    display: flex;
+    height: 568px;
+    }
+.right-side1>img{
+        width:500px;
+        height: 440px;
+        margin-top: 130px;}
+li{
+    font-size: 13px;
+    font-family: arial;
+    margin: 2px 10px;
+
+ }
+ .new-section{
+    margin: 10px 100px;
+    background: tomato;
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+    height: 150px;
+
+
+ }
+ .new-card{
+    margin-top: 28px;
+
+ }
+ .new-card>h1{
+    font-size: 50px;
+    font-family: arial;
+    color: white;
+
+ }
+ .new-card>p{
+    margin-top: 10px;
+    font-family: arial;
+    color: white;
+ }
+ .bannar-area3{
+    margin: 5px 100px;
+    background: whitesmoke;
+    display: flex;
+    height: 514px;
+
+
+ }
+ .last-section{
+margin: 10px 100px;
+background: blue;
+height: 150px;
+
+
+
+ }
+ .last-div{
+    
+
+
+ }
+ .head1{
+    font-size: 30px;
+    font-family: arial;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+ }
+ .new-input{
+     display: flex;
+    align-items: center;
+
+
+ }
+.input-area{
+  margin-left: 400px;
+  width: 260px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+::placeholder {
+    text-align: center;
+    font-family: arial;
+    width: 15px;
+    gap: 10px;
+  }
+  .btn1{
+    margin: 0px 5px;
+    width: 80px;
+    height: 32px;
+    border-radius: 50px;
+    background: tomato;
+    color: white;
+    border: none;
+  }
+  .btn1:hover{
+    background: white;
+    color: tomato;
+
+  }
+  footer{
+    margin: 10px 100px;
+    background: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+
+@media (max-width:992px) {
+    .flex-space-around{
+
+        flex-direction: column;
+    }
+    .bannar-area{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .right-side>img{
+        width: 100%;
+        height: auto;
+    }
+    .left-side{
+        width: 100%;
+        height:auto;
+    }
+    .card-area1{
+
+        flex-direction: column;
+    }
+    
+   
+    
+    
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:600px) {
+    
+}
